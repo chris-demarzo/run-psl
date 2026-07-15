@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fleet-feet-stuart-psl",
+    "name": "Fleet Feet Stuart & Port St. Lucie",
+    "category": "Running store & community",
+    "location": "Port St. Lucie and Stuart",
+    "description": "Locally operated running and walking retailer with two Treasure Coast locations, weekly runs, training programs, and local event information.",
+    "url": "https://www.fleetfeet.com/s/stuart/",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "psl-parks-directory",
+    "name": "Port St. Lucie Parks & Recreation",
+    "category": "Public facilities",
+    "location": "Port St. Lucie",
+    "description": "Official city source for park pages, posted hours, facility features, trail descriptions, and current public-access information.",
+    "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "tc-running",
+    "name": "TC Running",
+    "category": "Race organizer",
+    "location": "Treasure Coast",
+    "description": "Treasure Coast running-event organizer associated with local race information and registration pages.",
+    "url": "https://www.tcrunning.org/",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "runsignup-treasure-coast",
+    "name": "RunSignup Nearby Race Search",
+    "category": "Registration calendar",
+    "location": "Within 50 miles of Port St. Lucie ZIP 34952",
+    "description": "Active registration-platform search for nearby races. Confirm organizer, in-person date, and event details on each individual race page.",
+    "url": "https://runsignup.com/Races?radius=50&zipcode=34952",
+    "verifiedDate": "2026-07-15"
+  }
+]

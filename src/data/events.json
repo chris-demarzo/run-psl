@@ -1,0 +1,68 @@
+[
+  {
+    "id": "eagle-fort-pierce-2026",
+    "name": "Eagle 5K, 10K & Half Marathon",
+    "date": "2026-07-18",
+    "time": "8:30 AM",
+    "location": "Fort Pierce, Florida",
+    "distances": ["5K", "10K", "Half marathon"],
+    "organizer": "US Road Running",
+    "url": "https://runsignup.com/Race/FL/FortPierce/Eagle5K10KMAtFortPierceFL29",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "downtown-dash-2026",
+    "name": "Downtown Dash 5K Run",
+    "date": "2026-07-25",
+    "time": "6:00 AM",
+    "location": "Downtown Stuart, Florida",
+    "distances": ["5K"],
+    "organizer": "TC Running",
+    "url": "https://runsignup.com/Race/FL/Stuart/DowntownDash5KRun",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "furnace-5k-2026",
+    "name": "Fleet Feet Furnace 5K & Kids Dash",
+    "date": "2026-08-08",
+    "time": "5K 6:30 AM · Kids Dash 7:15 AM",
+    "location": "Fleet Feet Stuart, Stuart, Florida",
+    "distances": ["5K", "Kids dash"],
+    "organizer": "Fleet Feet Stuart",
+    "url": "https://runsignup.com/Race/FL/Stuart/FleetFeetFurnace5KRunandKidsFunRun",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "ninja-fort-pierce-2026",
+    "name": "Ninja 5K, 10K & Half Marathon",
+    "date": "2026-08-15",
+    "time": "8:30 AM",
+    "location": "Fort Pierce, Florida",
+    "distances": ["5K", "10K", "Half marathon"],
+    "organizer": "US Road Running",
+    "url": "https://runsignup.com/Race/FL/FortPierce/Ninja5K10KMAtFortPierceFL33",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "beach-to-beach-2026",
+    "name": "Beach to Beach 5K Run",
+    "date": "2026-08-22",
+    "time": "7:00 AM",
+    "location": "Stuart, Florida",
+    "distances": ["5K"],
+    "organizer": "TC Running",
+    "url": "https://runsignup.com/Race/FL/Stuart/BeachtoBeach5KRun",
+    "verifiedDate": "2026-07-15"
+  },
+  {
+    "id": "tunnel-to-towers-vero-2026",
+    "name": "Tunnel to Towers 5K Run & Walk",
+    "date": "2026-09-05",
+    "time": "7:15 AM",
+    "location": "Riverside Park, Vero Beach, Florida",
+    "distances": ["5K"],
+    "organizer": "Tunnel to Towers Foundation",
+    "url": "https://runsignup.com/Race/FL/VeroBeach/TunneltoTowers5KRunWalkVeroBeachFL",
+    "verifiedDate": "2026-07-15"
+  }
+]

@@ -1,0 +1,5 @@
+---
+interface Props { title: string; message: string; }
+const { title, message } = Astro.props;
+---
+<section class="empty-state" aria-live="polite"><p class="eyebrow">Research in progress</p><h2>{title}</h2><p>{message}</p></section>
