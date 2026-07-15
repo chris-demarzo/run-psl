@@ -22,10 +22,24 @@ for (const path of ['/', '/events/', '/groups/', '/routes/', '/resources/']) {
 
 test('event directory exposes six sourced event cards', async ({ page }) => {
   await page.goto('/events/');
-  await expect(page.locator('article.card')).toHaveCount(6);
-  const sourceLinks = page.locator('article.card a.source');
+  const cards = page.locator('article.card');
+  await expect(cards).toHaveCount(6);
+  const sourceLinks = cards.locator('a.source');
   await expect(sourceLinks).toHaveCount(6);
   for (const href of await sourceLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href')))) {
     expect(href).toMatch(/^https:\/\//);
+  }
+});
+
+test('mobile navigation keeps every link fully visible', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'mobile-chromium');
+  await page.goto('/');
+  const viewport = page.viewportSize();
+  expect(viewport).not.toBeNull();
+  for (const link of await page.getByRole('navigation', { name: 'Primary navigation' }).getByRole('link').all()) {
+    const box = await link.boundingBox();
+    expect(box).not.toBeNull();
+    expect(box!.x).toBeGreaterThanOrEqual(0);
+    expect(box!.x + box!.width).toBeLessThanOrEqual(viewport!.width);
   }
 });

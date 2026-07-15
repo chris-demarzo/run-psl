@@ -51,3 +51,9 @@ test('event dates are formatted for people instead of exposing raw ISO values', 
   assert.match(html, /Jul 18, 2026/);
   assert.doesNotMatch(html, />2026-07-18/);
 });
+
+test('homepage describes the populated directory rather than a coming-soon state', async () => {
+  const html = await readFile(join(process.cwd(), 'dist', 'index.html'), 'utf8');
+  assert.match(html, /Built from live public sources/);
+  assert.doesNotMatch(html, /Verified listings are on the way/);
+});
