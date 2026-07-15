@@ -2,10 +2,10 @@
   {
     "id": "fleet-feet-stuart-psl",
     "name": "Fleet Feet Stuart & Port St. Lucie",
-    "category": "Running store & community",
-    "location": "Port St. Lucie and Stuart",
-    "description": "Locally operated running and walking retailer with two Treasure Coast locations, weekly runs, training programs, and local event information.",
-    "url": "https://www.fleetfeet.com/s/stuart/",
+    "category": "Running stores & community",
+    "location": "11586 SW Village Pkwy, Port St. Lucie · 2440 NW Federal Hwy, Stuart",
+    "description": "Two locally operated stores offering shoe fittings, running gear, training programs, weekly runs, and local race information.",
+    "url": "https://www.fleetfeet.com/s/stuart/about/directions",
     "verifiedDate": "2026-07-15"
   },
   {
@@ -18,21 +18,21 @@
     "verifiedDate": "2026-07-15"
   },
   {
-    "id": "tc-running",
-    "name": "TC Running",
-    "category": "Race organizer",
-    "location": "Treasure Coast",
-    "description": "Treasure Coast running-event organizer associated with local race information and registration pages.",
-    "url": "https://www.tcrunning.org/",
+    "id": "sportsmans-park-west",
+    "name": "Sportsman’s Park West",
+    "category": "Municipal walking/running track",
+    "location": "220 NW Irving St, Port St. Lucie",
+    "description": "City-operated walking and running track with parking, restrooms, free Wi-Fi, and track lights until 9:30 PM. Park hours are 8:00 AM–10:00 PM.",
+    "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Sportsmans-Park-West",
     "verifiedDate": "2026-07-15"
   },
   {
-    "id": "runsignup-treasure-coast",
-    "name": "RunSignup Nearby Race Search",
-    "category": "Registration calendar",
-    "location": "Within 50 miles of Port St. Lucie ZIP 34952",
-    "description": "Active registration-platform search for nearby races. Confirm organizer, in-person date, and event details on each individual race page.",
-    "url": "https://runsignup.com/Races?radius=50&zipcode=34952",
+    "id": "halpatiokee-regional-park",
+    "name": "Halpatiokee Regional Park",
+    "category": "Regional trail-running resource",
+    "location": "8303 SW Lost River Road, Stuart",
+    "description": "Martin County park with miles of hiking and multi-use trails through pine flatwoods, oak hammock, scrub, river land, and wetlands. Expect natural obstacles and changing conditions.",
+    "url": "https://www.martin.fl.us/Halpatiokee",
     "verifiedDate": "2026-07-15"
   }
 ]

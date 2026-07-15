@@ -2,21 +2,21 @@
   {
     "id": "jessica-clinton-park",
     "name": "Jessica Clinton Park Perimeter",
-    "location": "Port St. Lucie",
+    "location": "3200 SE Southbend Blvd, Port St. Lucie",
     "distance": "Lighted 0.5-mile perimeter sidewalk/trail",
     "surface": "Sidewalk/trail",
     "amenities": ["Parking", "ADA restrooms"],
-    "safety": "Confirm current park hours and conditions before running.",
+    "safety": "Open 8:00 AM–10:00 PM. The perimeter is listed as lighted, but do not assume equal illumination after the 9:30 PM sports-light curfew.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Jessica-Clinton-Park",
     "verifiedDate": "2026-07-15"
   },
   {
     "id": "winterlakes-park",
     "name": "Winterlakes Park Trail System",
-    "location": "Port St. Lucie",
+    "location": "5241 NW Jannebo St, Port St. Lucie",
     "distance": "3,923 feet / 0.74 mile",
     "surface": "Sidewalk trail system",
-    "amenities": [],
+    "amenities": ["Parking", "Two ADA restrooms", "Outdoor fitness stations"],
     "safety": "A pathway-lighting project was still underway with estimated completion in August 2026; do not assume current lighting.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Winterlakes-Park",
     "verifiedDate": "2026-07-15"
@@ -24,38 +24,38 @@
   {
     "id": "oak-hammock-park",
     "name": "Oak Hammock Park Trails",
-    "location": "Port St. Lucie",
+    "location": "1982 SW Villanova Road, Port St. Lucie",
     "distance": "Approximately 3 miles of trails",
     "surface": "Exact material not stated",
-    "amenities": [],
-    "safety": "The stated mileage describes the trail network, not a guaranteed single loop through the natural habitat.",
+    "amenities": ["Parking", "ADA restrooms"],
+    "safety": "Open 7:00 AM–sunset. Exact surface and trail lighting are not stated; expect a natural route through oak and palm hammocks.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Oak-Hammock-Park",
     "verifiedDate": "2026-07-15"
   },
   {
     "id": "mccarty-ranch-preserve",
     "name": "McCarty Ranch Preserve Trails",
-    "location": "Port St. Lucie",
+    "location": "12525 Range Line Road, Port St. Lucie",
     "surface": "Cleared trails; exact material not stated",
     "amenities": ["Parking", "ADA restrooms"],
-    "safety": "The official trail map notes that trails may close because of wet ground or standing water.",
+    "safety": "Open 8:00 AM–sunset. Trails are shared with bicycles and horses and may close because of wet ground or standing water.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/McCarty-Ranch-Preserve",
     "verifiedDate": "2026-07-15"
   },
   {
     "id": "woodland-trails-park",
     "name": "Woodland Trails Park",
-    "location": "Port St. Lucie",
+    "location": "1485 SW Calmar Avenue, Port St. Lucie",
     "surface": "Sidewalk trail system",
     "amenities": ["Parking", "ADA restroom"],
-    "safety": "Posted facility hours are 8:00 AM to sunset; verify current conditions and shared park use.",
+    "safety": "Open 8:00 AM–sunset. No trail lighting is listed; be attentive near the dog-park entrance and shared recreation areas.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Woodland-Trails-Park-Dog-Park",
     "verifiedDate": "2026-07-15"
   },
   {
     "id": "rosser-lakes-preserve",
     "name": "Rosser Lakes Preserve",
-    "location": "Port St. Lucie",
+    "location": "3792 SW Rosser Boulevard, Port St. Lucie",
     "surface": "Hiking/biking trails; exact material not stated",
     "amenities": [],
     "safety": "Posted access is 8:00 AM to dusk. Parking, restrooms, water, lighting, and mileage were not verified on the official page.",
@@ -64,12 +64,12 @@
   },
   {
     "id": "the-boardwalk",
-    "name": "The Boardwalk",
-    "location": "Veterans Park at Rivergate, Port St. Lucie",
+    "name": "The Boardwalk at The Port District",
+    "location": "2200 SE Veterans Memorial Pkwy, from Veterans Park at Rivergate to Tom Hooper Park",
     "distance": "Approximately 4,300 feet",
     "surface": "10-foot-wide recycled-material boardwalk",
     "amenities": ["Boardwalk lighting", "Lighted endpoint parking", "Endpoint ADA restrooms"],
-    "safety": "Parking and restrooms are verified at the Veterans Park endpoint rather than along the full waterfront route.",
+    "safety": "Open 24/7. Expect pedestrians and anglers in the shared waterside corridor; parking and restrooms are verified at the Veterans Park endpoint.",
     "url": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/The-Boardwalk",
     "verifiedDate": "2026-07-15"
   }
