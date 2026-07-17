@@ -52,8 +52,10 @@ test('event dates are formatted for people instead of exposing raw ISO values', 
   assert.doesNotMatch(html, />2026-07-18/);
 });
 
-test('homepage describes the populated directory rather than a coming-soon state', async () => {
+test('homepage describes the populated Treasure Coast directory', async () => {
   const html = await readFile(join(process.cwd(), 'dist', 'index.html'), 'utf8');
+  assert.match(html, /Treasure Coast directory/);
   assert.match(html, /Built from live public sources/);
+  assert.doesNotMatch(html, /First edition/);
   assert.doesNotMatch(html, /Verified listings are on the way/);
 });
