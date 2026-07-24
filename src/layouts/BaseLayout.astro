@@ -14,16 +14,15 @@ const links = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#f7f4ec" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#080d0b" />
+    <link rel="icon" href="/brand/run-psl-logo-03c.png" type="image/png" />
     <title>{title} · Run PSL</title>
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="/" aria-label="Run PSL home">
-        <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 35c8-1 10-19 19-19 7 0 6 13 15 11"/><circle cx="8" cy="35" r="3"/><circle cx="41" cy="27" r="3"/></svg>
-        <span>Run <strong>PSL</strong></span>
+        <img class="brand-logo" src="/brand/run-psl-logo-03c.png" alt="" width="1254" height="1254" />
       </a>
       <nav aria-label="Primary navigation">
         {links.map(([href, label]) => <a href={href} aria-current={path === href ? 'page' : undefined}>{label}</a>)}
@@ -31,7 +30,7 @@ const links = [
     </header>
     <main id="content"><slot /></main>
     <footer class="site-footer">
-      <div><a class="brand footer-brand" href="/">Run <strong>PSL</strong></a><p>An independent guide for runners around Port St. Lucie.</p></div>
+      <div><a class="brand footer-brand" href="/" aria-label="Run PSL home"><img class="brand-logo" src="/brand/run-psl-logo-03c.png" alt="" width="1254" height="1254" /></a><p>An independent guide for runners around Port St. Lucie.</p></div>
       <div class="footer-links"><a href="/about/">About</a><a href="/privacy/">Privacy</a><span>Last verified: July 15, 2026</span></div>
     </footer>
   </body>
