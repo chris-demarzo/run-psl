@@ -1,14 +1,14 @@
 [
   {
-    "id": "eagle-fort-pierce-2026",
-    "name": "Eagle 5K, 10K & Half Marathon",
-    "date": "2026-07-18",
-    "time": "8:30 AM",
-    "location": "Lakewood Park Regional Park, 5990 Emerson Ave, Fort Pierce",
-    "distances": ["5K", "10K", "Half marathon"],
-    "organizer": "US Road Running",
-    "url": "https://usroadrunning.com/Races/FL/Fort-Pierce/196517-Eagle-5K-10K-13-1M-at-Fort-Pierce-FL-29/",
-    "verifiedDate": "2026-07-15"
+    "id": "united-we-remember-psl-2026",
+    "name": "United We Remember 3.43 Mile Run/Walk",
+    "date": "2026-09-12",
+    "time": "8:46 AM",
+    "location": "Tradition Square, 10799 SW Civic Lane, Port St. Lucie",
+    "distances": ["3.43-mile run/walk"],
+    "organizer": "St. Lucie County Firefighters Benevolent Association",
+    "url": "https://runsignup.com/Race/FL/PortSaintLucie/UnitedWeRemember",
+    "verifiedDate": "2026-07-24"
   },
   {
     "id": "downtown-dash-2026",
@@ -19,7 +19,7 @@
     "distances": ["5K", "Virtual 5K"],
     "organizer": "TC Running",
     "url": "https://runsignup.com/Race/FL/Stuart/DowntownDash5KRun",
-    "verifiedDate": "2026-07-15"
+    "verifiedDate": "2026-07-24"
   },
   {
     "id": "furnace-5k-2026",
@@ -30,7 +30,7 @@
     "distances": ["5K run/walk", "Kids dash", "Virtual 5K"],
     "organizer": "Fleet Feet Stuart",
     "url": "https://runsignup.com/Race/FL/Stuart/FleetFeetFurnace5KRunandKidsFunRun",
-    "verifiedDate": "2026-07-15"
+    "verifiedDate": "2026-07-24"
   },
   {
     "id": "ninja-fort-pierce-2026",
@@ -40,8 +40,8 @@
     "location": "Lakewood Park Regional Park, 5990 Emerson Ave, Fort Pierce",
     "distances": ["5K", "10K", "Half marathon"],
     "organizer": "US Road Running",
-    "url": "https://usroadrunning.com/Races/FL/Fort-Pierce/196518-Ninja-5K-10K-13-1M-at-Fort-Pierce-FL-33/",
-    "verifiedDate": "2026-07-15"
+    "url": "https://runsignup.com/Race/FL/FortPierce/Ninja5K10KMAtFortPierceFL33",
+    "verifiedDate": "2026-07-24"
   },
   {
     "id": "beach-to-beach-2026",
@@ -52,7 +52,7 @@
     "distances": ["5K", "Virtual 5K"],
     "organizer": "TC Running",
     "url": "https://runsignup.com/Race/FL/Stuart/BeachtoBeach5KRun",
-    "verifiedDate": "2026-07-15"
+    "verifiedDate": "2026-07-24"
   },
   {
     "id": "tunnel-to-towers-vero-2026",
@@ -63,6 +63,6 @@
     "distances": ["5K"],
     "organizer": "Tunnel to Towers Foundation",
     "url": "https://runsignup.com/Race/FL/VeroBeach/TunneltoTowers5KRunWalkVeroBeachFL",
-    "verifiedDate": "2026-07-15"
+    "verifiedDate": "2026-07-24"
   }
 ]

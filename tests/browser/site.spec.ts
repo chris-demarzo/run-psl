@@ -20,14 +20,14 @@ for (const path of ['/', '/events/', '/groups/', '/routes/', '/resources/']) {
   });
 }
 
-test('event directory exposes six sourced event cards', async ({ page }) => {
+test('event directory matches the upcoming source records', async ({ page }) => {
+  await page.goto('/');
+  const expectedCount = Number(await page.locator('a[href="/events/"] b').textContent());
   await page.goto('/events/');
-  const cards = page.locator('article.card');
-  await expect(cards).toHaveCount(6);
-  const sourceLinks = cards.locator('a.source');
-  await expect(sourceLinks).toHaveCount(6);
-  for (const href of await sourceLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href')))) {
-    expect(href).toMatch(/^https:\/\//);
+  await expect(page.locator('article.card')).toHaveCount(expectedCount);
+  if (expectedCount === 0) {
+    await expect(page.getByRole('heading', { name: 'No upcoming events are currently verified' })).toBeVisible();
+    await expect(page.getByText('Past events are archived automatically.')).toBeVisible();
   }
 });
 

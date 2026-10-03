@@ -18,6 +18,7 @@ const groups = defineCollection({
   schema: z.object({
     id: z.string(), name: z.string(), schedule: z.string(), location: z.string(),
     pace: z.string().optional(), note: z.string().optional(), url: z.url(), verifiedDate,
+    expiresDate: verifiedDate.optional(),
   }),
 });
 
